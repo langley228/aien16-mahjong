@@ -2,13 +2,13 @@ import os
 import cv2
 
 # replace file path with your path, idiot.
-labelDictPath = r"C:/Users\Student\Desktop/mahjong/label.txt"
+labelDictPath = r"C:\Users\Student\Desktop\aien16-mahjong\imagesV3/label.txt"
 
-labelSrcPath = r"C:/Users\Student\Desktop/mahjong\dataset"
-labelOutPath = r"C:/Users/Student/Desktop/mahjong/label/"
+labelSrcPath = r"C:\Users\Student\Desktop\test123"
+labelOutPath = r"C:\Users\Student\Desktop\aien16-mahjong\imagesV3\label"
 
-imgSrcPath = r"C:/Users\Student\Desktop/mahjong\dataset"
-imgOutPath = r"C:/Users/Student/Desktop/mahjong/img/"
+imgSrcPath = r"C:\Users\Student\Desktop\test123"
+imgOutPath = r"C:\Users\Student\Desktop\aien16-mahjong\imagesV3\img"
 
 def getDict(srcPath) :
     # initial dictionary
